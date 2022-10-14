@@ -14,7 +14,7 @@ func main() {
 	conn, err := net.Dial("tcp", address)
 	// check if connection was successfully established
 	if err != nil {
-		fmt.Println("The following error occured", err)
+		fmt.Println("The following error occurred", err)
 	}
 	//reading string from user
 	reader := bufio.NewReader(os.Stdin)
