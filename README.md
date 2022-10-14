@@ -10,10 +10,6 @@ this project is part of the research stage of our magshimim project and was inte
 
 ## Installation
 
-Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
-
-Install the dependencies and devDependencies and start the server.
-
 ```sh
 git clone https://github.com/benC1232/go-proxy.git
 cd go-proxy
