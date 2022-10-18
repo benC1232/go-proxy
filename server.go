@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	listener, err := net.Listen("tcp", "")
+	listener, err := net.Listen("tcp", "127.0.0.1:5578")
 	if err != nil {
 		fmt.Println("error listening: " + err.Error())
 		os.Exit(1)
